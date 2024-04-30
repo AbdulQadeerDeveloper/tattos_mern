@@ -1,0 +1,39 @@
+/* Header.css */
+.header-logo {
+    width: auto; /* Adjust width as necessary */
+    max-width: 200px; /* Ensure it's responsive */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  @media (max-width: 768px) {
+    .header-logo {
+      width: 150px; /* Adjust for mobile screens */
+    }
+  }
+  
+  /* Additional styles for your header */
+  .navbar-toggler {
+    border-color: rgba(0,0,0,.1); /* Customization */
+  }
+  
+  .collapse:not(.show) {
+    display: none;
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  

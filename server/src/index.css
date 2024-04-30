@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Poppins:400,500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+ul#uploadId {
+  display: flex;
+  list-style: none;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+}
+.artist-detail .artist-detail-left .page-section-list li a {
+  color: #000;
+  text-transform: uppercase;
+  position: relative;
+  bottom: 30px;
+  margin: 10px;
+}
+.content {
+  position: absolute;
+  top: 50%;
+
+  left: 50%;
+  background: black;
+  z-index: 999;
+  text-align: center;
+  padding: 20px 32px;
+  padding-bottom: 30px;
+  width: 370px;
+  transform: translate(-50%, -50%);
+
+  box-shadow: -1px 4px 28px 0px rgba(0, 0, 0, 0.75);
+}
+
+.custom-img {
+  height: 300px; /* Fixed height */
+  width: 100%;
+  max-width: 400px;
+  object-fit: cover;
+}
+
+
+.container.animate-box {
+  padding-top: 117px;
+}
+h4, .h4 {
+  font-size: calc(1.275rem + 0.3vw);
+  padding-top: 61px;
+}
+
+
+article.mas-holder {
+
+  margin-top: 0px;
+}
+
+
+.strong {
+  font-size: 42px;
+  max-width: 1290px;
+  width: 100%;
+  margin: auto;
+  padding-top: 100px;
+  font-weight: 500;
+  display: flex;
+ 
+
+}
+.search{
+  width: 50%;
+  position: relative;
+  left: 20%;
+  top: 20px;
+}
+.fa-search:before {
+  content: "\f002";
+  position: absolute;
+  bottom: -20px;
+}
+.pb-fa {
+  position: absolute;
+  right: 41px !important;
+  top: 5px;
+  cursor: pointer;
+  color: #999;
+  background: #f6f6f6;
+  padding-left: 8px;
+  line-height: 32px;
+  padding: 3px 14px;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.55);
+  font-size: 12px;
+  font-weight: 700;
+}
+.follower-page .pd-5 {
+  padding: 5px 0 0;
+  /* margin-left: 123px; */
+  position: relative;
+  left: 32px;
+  top: 10px;
+}
+.content header {
+  color: white;
+  font-size: 33px;
+  font-weight: 600;
+  margin: 0 0 15px 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.img-fluid {
+
+  height: 100%;
+  width: 100%;
+}
+
+img.img-fluid {
+  width: 100%;
+
+  height: 100%;
+}
+
+#right{
+  text-align: left;
+  max-width: 1100px;
+  margin: auto;
+  width: 100%;
+}
+#card {
+  max-height: 210px;
+  padding: 0px;
+}
+div#card-bottom {
+  position: relative;
+  top: 5%;
+  
+
+}
+.fh5co_good_font_3 {
+  font-size: 19px;
+  color: black;
+  text-decoration: underline;
+}
+.fh5co_good_font_2 {
+  font-size: 19px;
+  color: white;
+  text-decoration: underline;
+}
+.card-color{
+  color: #df2060;
+}
+.col-md-3 {
+  flex: 0 0 auto;
+  width: 33.33%;
+}
+
+div#footer {
+  padding-top: 20px;
+  margin-top: 40px;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  padding: 1rem 1rem;
+  max-width: 500px;
+  height: 400px;
+}
+#cardItem{
+  flex: 1 1 auto;
+  padding: 1rem 1rem;
+  max-width: 500px;
+  height: 300px;
+}
+
+.fh5co_latest_trading_date_and_name_color {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 13px;
+  margin-bottom: 20px;
+  color: black;
+  font-family: 'DM Sans';
+  font-weight: bolder;
+}
+
+.field {
+  position: relative;
+  height: 45px;
+  width: 100%;
+  display: flex;
+  background: rgba(255, 255, 255, 0.94);
+}
+
+.field span {
+  color: #222;
+  width: 40px;
+  line-height: 45px;
+}
+
+.field input {
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #222;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.space {
+  margin-top: 16px;
+}
+
+.show {
+  position: absolute;
+  right: 13px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #222;
+  display: none;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.pass-key:valid~.show {
+  display: block;
+}
+
+.pass {
+  text-align: left;
+  margin: 10px 0;
+}
+
+.pass a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+.pass:hover a {
+  text-decoration: underline;
+}
+
+.field input[type="submit"] {
+  background: #3498db;
+  border: 1px solid #2691d9;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.field input[type="submit"]:hover {
+  background: #2691d9;
+}
+
+.login {
+  color: white;
+  margin: 20px 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.links {
+  display: flex;
+  cursor: pointer;
+  color: white;
+  margin: 0 0 20px 0;
+}
+
+.facebook,
+.instagram {
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  margin-left: 10px;
+}
+
+.facebook {
+  margin-left: 0;
+  background: #4267B2;
+  border: 1px solid #3e61a8;
+}
+
+.instagram {
+  background: #E1306C;
+  border: 1px solid #df2060;
+}
+
+.facebook:hover {
+  background: #3e61a8;
+}
+
+.instagram:hover {
+  background: #df2060;
+}
+
+.links i {
+  font-size: 17px;
+}
+
+i span {
+  margin-left: 8px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.signup {
+  font-size: 15px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.signup a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.signup a:hover {
+  text-decoration: underline;
+}
+
+
+#myCarousel {
+  margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+  .carousel-inner .carousel-item>div {
+    display: none;
+  }
+
+  .carousel-inner .carousel-item>div:first-child {
+    display: block;
+  }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-start,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+@media (min-width: 768px) {
+
+  .carousel-inner .carousel-item-right.active,
+  .carousel-inner .carousel-item-next,
+  .carousel-item-next:not(.carousel-item-start) {
+    transform: translateX(25%) !important;
+  }
+
+  .carousel-inner .carousel-item-left.active,
+  .carousel-item-prev:not(.carousel-item-end),
+  .active.carousel-item-start,
+  .carousel-item-prev:not(.carousel-item-end) {
+    transform: translateX(-25%) !important;
+  }
+
+  .carousel-item-next.carousel-item-start,
+  .active.carousel-item-end {
+    transform: translateX(0) !important;
+  }
+
+  .carousel-inner .carousel-item-prev,
+  .carousel-item-prev:not(.carousel-item-end) {
+    transform: translateX(-25%) !important;
+  }
+}

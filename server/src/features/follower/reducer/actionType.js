@@ -1,0 +1,1 @@
+export const GET_LIST_FOLLOWER = "GET_LIST_FOLLOWER"

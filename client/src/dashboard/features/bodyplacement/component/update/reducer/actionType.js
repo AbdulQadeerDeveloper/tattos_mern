@@ -1,0 +1,1 @@
+export const SET_PLACEMENT_NAME = 'SET_PLACEMENT_NAME';

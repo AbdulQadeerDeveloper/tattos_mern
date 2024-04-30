@@ -1,0 +1,1 @@
+export const GET_LIST_ARTIS = 'GET_LIST_ARTIS'
