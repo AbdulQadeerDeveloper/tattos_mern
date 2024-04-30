@@ -2,7 +2,7 @@
 const jwt = require('jsonwebtoken');
 const User = require('../models/authModels/user');
 const asyncHandler = require('express-async-handler');
-
+// Implement custom error handling middleware to manage API exceptions
 exports.protect = asyncHandler(async (req, res, next) => {
   let token;
 
