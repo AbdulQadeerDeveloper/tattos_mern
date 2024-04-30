@@ -37,7 +37,7 @@ import PaymentSuccessComponent from "../features/pages/paymentSuccess/component.
 import ContactComponent from "../features/pages/contact/component.js";
 import CustomerComponent from "../features/pages/customer/component.js";
 
-
+// Initialize React app with React Router for page navigation
 const CombineRoute = () => {
   return (
     <Router>
