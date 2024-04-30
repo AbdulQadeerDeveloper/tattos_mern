@@ -41,7 +41,8 @@ function Login() {
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
-
+  
+  // Add user authentication forms for login and registration with form validation
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (!validateForm()) {

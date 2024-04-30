@@ -13,6 +13,7 @@ const ResetPassword = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     dispatch(resetPassword(password))
+    
       .then((response) => {
         swal("Success!", "Your password has been reset successfully. Please log in with your new password.", "success")
           .then(() => {

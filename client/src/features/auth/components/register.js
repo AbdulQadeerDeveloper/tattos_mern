@@ -19,6 +19,7 @@ function Register() {
     cellNumber: ''
   });
 
+  //Add user authentication forms for login and registration with form validation
   const [errors, setErrors] = useState({});
 
   const handleChange = (e) => {
