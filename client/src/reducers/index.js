@@ -23,7 +23,10 @@ import messageReducer from '../features/contact/reducer';
 import { businessFormReducer } from '../dashboard/features/business/reducer';
 import { CustomerFormReducer } from '../features/customerBooking/reducer';
 import priceReducer from "../features/tattoos/reducerPayment"
+
+// Implement Redux for efficient global state management across the app
 const reducers = {
+
    
     authReducer,
     Tattoos:adminTattoosReducer,

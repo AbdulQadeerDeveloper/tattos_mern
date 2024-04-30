@@ -2,7 +2,7 @@ import { configureStore } from '@reduxjs/toolkit'; // Import configureStore from
 import reducers from '../reducers'; // Import your root reducer
 import { persistStore, persistReducer } from 'redux-persist'; // Import persistStore and persistReducer for data persistence
 import storage from 'redux-persist/lib/storage'; // Import the default storage, which is localStorage for web
-
+// Implement Redux for efficient global state management across the app
 // Configuration object for redux-persist
 const persistConfig = {
     key: 'root', // The key for the redux state to be stored in local storage
