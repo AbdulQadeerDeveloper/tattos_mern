@@ -61,7 +61,7 @@ app.get('/protected-route', authenticateToken, (req, res) => {
 
 
 
-
+// depolyment process
 // // Conditionally serve static files in production
 // if (process.env.NODE_ENV === "production") {
 //   // Serve any static files from the ./client/build directory
